@@ -13,6 +13,7 @@ public class ConverterTest {
         Assertions.assertThat(convert).isEqualTo(10);
     }
 
+
     @Test
     void test2() {
         IntegerToStringConverter converter = new IntegerToStringConverter();
