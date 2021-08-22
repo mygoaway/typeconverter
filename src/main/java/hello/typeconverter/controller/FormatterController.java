@@ -28,6 +28,7 @@ public class FormatterController {
         @NumberFormat(pattern = "###,###")
         private Integer number;
 
+        
         @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
         private LocalDateTime localDateTime;
     }
